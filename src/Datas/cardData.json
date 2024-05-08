@@ -1,0 +1,36 @@
+[
+    {
+        "id": "1",
+        "image": "sophie-bluel.png",
+        "descriptionImage": "Image site web",
+        "title": "Sophie Bluel",
+        "description": "Ce site est le potfolio d'une architecte d'intérieur. ",
+        "competence" : "Ce projet m'a principalement fais utilisé sass & javascript avec les appelles API" ,
+        "link" :"https://github.com/Lloydfaharon/Lloydfaharon-sophie-bluel.git",
+        "icons":["icon1.png", "icon2.png"]
+    }
+    ,
+    {
+        "id": "2",
+        "image": "kasa.png",
+        "descriptionImage": "Image site web",
+        "title": "Kasa",
+        "description": "Ce site est une application web de location d’appartements entre particuliers dans la même idée que Airbnb.Mes missions ",
+        "competence" : "Ce projet m'a principalement fais utilisé React & javascript avec les appelles API",
+        "link":"https://github.com/Lloydfaharon/kasa.git",
+        "icons":["icon1.png", "icon2.png", "icon3.png"]
+    },
+    {
+        "id": "3",
+        "image": "argentbank.png",
+        "descriptionImage": "Image site web",
+        "title": "ArgentBank",
+        "description": "Ce site permet aux untilisateur de se connecter et d'accéder à leur profil.L'utilisateur peut voir et modifier ses informations qui seront conservés dans la base de données MongoDB.",
+        "competence" : "Ce projet m'a principalement fais utilisé Redux, React & javascript avec les appelles API",
+        "link":"https://github.com/Lloydfaharon/frontend.git",
+        "icons":["icon2.png", "icon3.png", "icon4.png"]
+
+    
+    }
+    
+]

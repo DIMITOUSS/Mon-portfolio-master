@@ -1,0 +1,54 @@
+@charset "UTF-8";
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px; /* Ajoutez un peu de rembourrage pour l'espace autour du texte */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Ajoute une ombre douce */
+  background-color: white; /* Assurez-vous que l'arrière-plan est blanc ou de la couleur souhaitée */
+}
+
+h1 {
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.link :hover {
+  color: violet;
+}
+.link a {
+  text-decoration: none;
+  color: black;
+}
+
+@media (max-width: 1360px) {
+  .link {
+    font-size: 20px;
+  }
+}
+@media (max-width: 550px) {
+  .link {
+    font-size: 15px;
+    gap: 30px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 400px) {
+  .link {
+    font-size: 12px;
+    gap: 20px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+}/*# sourceMappingURL=header.css.map */

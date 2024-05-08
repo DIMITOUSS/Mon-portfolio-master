@@ -1,0 +1,99 @@
+.box {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h2 {
+    font-size: 30px;
+  }
+
+  &-2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    &-image {
+      margin: 10px;
+
+      img {
+        width: 184px;
+        height: 289px;
+        object-fit: cover;
+        border-radius: 5px;
+        box-shadow: 0 0 10px 5px rgb(192, 190, 190);
+      }
+    }
+    &-texte {
+      margin: 10px 45px;
+
+      p {
+        font-size: 28px;
+      }
+    }
+  }
+}
+// Média-query pour les écrans de petite taille
+@media (max-width: 1283px) {
+  .box-2 {
+    
+    &-texte {
+      margin: 10px 45px;
+
+      p {
+        font-size: 20px;
+      }
+    }
+  }
+}
+@media (max-width: 865px) {
+    .box-2 {
+       
+        &-texte {
+          margin: 10px 45px;
+    
+          p {
+            font-size: 15px;
+          }
+        }
+      }
+  
+}
+@media (max-width: 600px) {
+    .box{
+        height: 460px;
+    }
+    .box-2 {
+    
+        &-texte {
+          margin: 10px 1px;
+    
+          p {
+            font-size: 14px;
+          }
+        }
+      }
+  
+}
+@media (max-width: 391px) {
+  
+    
+    .box-2 {
+        width: 100%;
+    
+        &-texte {
+          margin: 10px 1px;
+    
+          p {
+            font-size: 12px;
+          }
+        }
+        &-image {
+      
+            img {
+              width: auto;
+              height: 247px;
+            }
+          }
+    }
+  
+}

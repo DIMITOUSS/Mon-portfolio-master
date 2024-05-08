@@ -1,0 +1,44 @@
+.cardP {
+  background: rgb(240, 240, 240);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 71px 0px;
+
+  width: 100%;
+  &-section-title {
+    font-size: 30px;
+  }
+
+  &-data {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px; // Espacement entre les éléments de la grille
+    padding: 30px;
+  }
+  // Média-query pour les écrans de petite taille
+  @media (max-width: 1360px) {
+    &-data {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px; // Espacement entre les éléments de la grille
+        padding: 30px;
+    }
+  }
+  @media (max-width: 880px) {
+    &-data {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px; // Espacement entre les éléments de la grille
+        padding: 30px;
+    }
+  }
+  @media (max-width: 510px) {
+    &-data {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px; // Espacement entre les éléments de la grille
+        padding: 0px;
+    }
+  }
+}

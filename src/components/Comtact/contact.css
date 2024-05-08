@@ -1,0 +1,114 @@
+.contact {
+  background-color: black;
+  padding: 100px 150px 150px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.contact h2 {
+  margin-bottom: 20px;
+  font-size: 30px;
+  color: #fff;
+}
+.contact .logo-reso {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 50px;
+}
+.contact .logo-reso img {
+  width: 100px;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.contact-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+@media screen and (max-width: 768px) {
+  .contact-container {
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .contact-container {
+    font-size: 20px;
+  }
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0px;
+}
+.contact-form label {
+  margin-bottom: 10px;
+}
+.contact-form .chan {
+  margin: 10px 0;
+  padding: 10px 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-radius: 5px;
+  align-items: center;
+  background-color: rgba(94, 109, 126, 0.102);
+}
+.contact-form .in {
+  width: 95%;
+  border: none;
+  padding: 5px 10px;
+  background-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.contact-form textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical; /* Permettre le redimensionnement vertical du textarea */
+}
+.contact-form .button {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-form .button button {
+  padding: 10px 20px;
+  background-color: #007bff; /* Couleur de fond du bouton */
+  color: #fff; /* Couleur du texte du bouton */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Animation de transition de la couleur de fond */
+}
+.contact-form .button button:hover {
+  background-color: #0056b3; /* Nouvelle couleur de fond au survol */
+}
+
+@media (max-width: 800px) {
+  .contact {
+    padding: 10px 15px 15px;
+  }
+}
+@media (max-width: 390px) {
+  .contact {
+    padding: 10px 15px 15px;
+  }
+}
+@media (max-width: 510px) {
+  .contact .logo-reso {
+    gap: 40px;
+  }
+  .contact .logo-reso img {
+    width: 70px;
+    height: auto;
+  }
+}/*# sourceMappingURL=contact.css.map */
