@@ -6,6 +6,7 @@ import Header from "./components/Header/header";
 import Footer from "./components/Footer/footer";
 
 import HomePage from "./pages/HomePage/homePage";
+import ErrorPage from "./pages/ErrorPage/errorPage";
 
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom"; 
@@ -27,7 +28,8 @@ const router = createBrowserRouter([
     element: <LayoutWithHeaderFooter><HomePage /></LayoutWithHeaderFooter>, 
   },
   {
-   
+    path: "*", 
+    element: <LayoutWithHeaderFooter><ErrorPage /></LayoutWithHeaderFooter>, 
   },
 ]);
 
